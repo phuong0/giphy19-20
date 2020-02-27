@@ -1,3 +1,44 @@
 h1 {
-  color: fuchsia;
+  color: #FF652F;
+  padding-right: 425px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#inputB {
+    align-self: center;
+    margin-right: 5px;
+}
+
+#btn {
+    align-self: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h2{
+    color: #14A76C;
+}
+
+p{
+    border-color: #14A76C;
+}
+
+body {
+    background-color: #272727;
+}
+
+hr{
+    color: #747474;
 }
