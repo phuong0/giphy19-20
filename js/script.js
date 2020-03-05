@@ -15,10 +15,10 @@ $('#btn').click(function() {
             return response.json();
         })
         .then(function(data) {
-            $("h2").empty();
+            $("#container").empty();
             let v;
-            for(v = 0; v < 5; v++){
-                $("h2").append(`<p><img src="${data['data'][v]['images']['original']['url']}"><p>`);
+            for(v = 0; v < 25; v++){
+                $("#container").append(`<p><img class="imgs" src="${data['data'][v]['images']['original']['url']}"><p>`);
             }
         })
 })

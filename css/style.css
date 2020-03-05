@@ -1,6 +1,6 @@
 h1 {
   color: #FF652F;
-  padding-right: 425px;
+  padding-right: 975px;
 }
 
 #header{
@@ -17,11 +17,12 @@ h1 {
 
 #btn {
     align-self: center;
+    background-color: #FF652F;
 }
 
 #container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 10px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -31,14 +32,21 @@ h2{
     color: #14A76C;
 }
 
-p{
-    border-color: #14A76C;
-}
-
 body {
     background-color: #272727;
 }
 
 hr{
     color: #747474;
+}
+
+.imgs{
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    transition: 0.3s;
+}
+
+.imgs:hover{
+    box-shadow: 10px 10px 5px #101010;
 }
